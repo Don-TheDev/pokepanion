@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "pokemon-app-v2",
-    "slug": "pokemon-app-v2",
+    "name": "pokepanion",
+    "slug": "pokepanion",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -17,13 +17,17 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "williams.donald.pokepanion",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "williams.donald.pokepanion",
+      "versionCode" : 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
